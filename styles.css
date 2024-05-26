@@ -1,0 +1,82 @@
+*{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.container {
+  max-width: 1024px;
+}
+.w-full {
+  width: 100%;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.font-extralight {
+  font-weight: 200;
+}
+
+.text-7xl {
+  font-size: 3.5rem;
+  line-height: 1;
+}
+.font-serif {
+  font-family: var(--font-editorial);
+}
+.text-center {
+  text-align: center;
+}
+.text-pretty {
+  text-wrap: pretty;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+#shop-widget-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.product {
+  width: 100%;
+  border-radius: .375rem;
+  border: 1px solid #f3f4f6;
+  padding: 10px;
+  font-size:12px;
+
+  & img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
