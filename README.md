@@ -10,6 +10,12 @@ add products to a cart, and checkout.
  - List products
  - Checkout Product
 
+### Changelog
+ #### *1.0 : 5/27/2024*
+ - Add customization config for product layout and button customization
+ - Show variants
+ - Add config for product content
+
 ### Upcoming Feautes
  - Details pop-up
  - Add multiple products to cart
