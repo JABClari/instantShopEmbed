@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Page Widget</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="bc-shop-widget.js"></script>
+    <link rel="stylesheet" href="bc-buybutton.css">
+    <script src="bc-shop-sdk.js"></script>
 </head>
-<body>
+<body>  
+<script>
+        const customConfig = {
+            product: {
+                productShown: {
+                    LoadSpecificProduct: false,
+                    paginated: true,
+                    paginationCount: 10
+                },
+                layout: 'horizontal',
+                content: {
+                    description: true,
+                    variants: true,
+                    showPrice: true,
+                    showPreorder: false
+                }
+            },
+            buttonText: 'Add to Cart',
+            buttonStyles: {
+                textColor: 'blue',
+                textHoverColor: 'green',
+                backgroundColor: 'yellow',
+                backgroundHoverColor: 'white'
+            }
+        };
+
+        initializeBareconnectInstantShop(customConfig);
+    
+</script>
+
 </body>
 </html>

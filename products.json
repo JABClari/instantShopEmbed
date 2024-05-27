@@ -1,23 +1,35 @@
 [
-  {
+    {
       "id": 1,
-      "name": " Nike Pegasus Plus",
+      "name": "Nike Pegasus Plus",
       "image": "https://running.supply/_image?href=https%3A%2F%2Fcms.running.supply%2Fapi%2Ffiles%2Fn10au9ybmqekauc%2Fh582qkxoeujgoj0%2Fnike_zoom_pegasus_plus_turbo_3_22pMIxkUzD.webp&w=400&h=400&q=80&f=webp",
       "price": 180,
-      "description": "Description of Product 1"
-  },
-  {
+      "description": "Description of Product 1",
+      "variants": [
+        { "name": "Size", "options": ["S", "M", "L"] },
+        { "name": "Color", "options": ["Red", "Blue", "Green"] }
+      ],
+      "hasPreorder": true
+    },
+    {
       "id": 2,
       "name": "Nike Sportwatch GPS",
       "image": "https://running.supply/_image?href=https%3A%2F%2Fcms.running.supply%2Fapi%2Ffiles%2Fn10au9ybmqekauc%2Fp2dekel4n757u6a%2Fnike_tomtom_gps_watch_5Xy7Vww58b.webp&w=400&h=400&q=80&f=webp",
       "price": 200,
-      "description": "Description of Product 2"
-  },
-  {
+      "description": "Description of Product 2",
+      "variants": [],
+      "hasPreorder": false
+    },
+    {
       "id": 3,
-      "name": "Alba Optics Delta Ultra VZUM ",
+      "name": "Alba Optics Delta Ultra VZUM",
       "image": "https://running.supply/_image?href=https%3A%2F%2Fcms.running.supply%2Fapi%2Ffiles%2Fn10au9ybmqekauc%2Fdo1ovtrhcdh7n4j%2Falba_optics_delta_ultra_org_vzum_alum_xN8s72ieF3.webp&w=400&h=400&q=80&f=webp",
       "price": 100,
-      "description": "Description of Product 3"
-  }
-]
+      "description": "Description of Product 3",
+      "variants": [
+        { "name": "Lens Type", "options": ["Clear", "Tinted"] }
+      ],
+      "hasPreorder": true
+    }
+  ]
+  

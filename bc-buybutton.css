@@ -1,0 +1,51 @@
+/* Default Styles for the Buy Button */
+:root {
+--bc-button-text-color:blue;
+--bc-button-text-hover-color:green;
+--bc-button-background-color:yellow;
+--bc-button-background-hover-color:white;
+}
+
+.bc-buy-button{
+  color: var(--bc-button-text-color);
+  background-color: var(--bc-button-background-color);
+  transition: color 0.3s, background-color 0.3s;
+
+  &:hover {
+    color: var(--bc-button-text-hover-color);
+    background-color: var(--bc-button-background-hover-color);
+  }
+}
+
+/* Layout styles */
+.bc-product-layoutVertical {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.bc-product-layoutHorizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bc-product-layoutHorizontal .bc-products-image-container {
+  margin-right: 20px;
+}
+
+/* Styles for variants */
+.product-variant {
+  margin-top: 10px;
+}
+
+.product-variant select {
+  margin-left: 5px;
+}
+
+/* Styles for preorder message */
+.preorder {
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+}
